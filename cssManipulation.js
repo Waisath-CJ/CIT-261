@@ -31,15 +31,6 @@ function changeButtons() {
     }
 }
 
-function changeButtonsBack() {
-    var x = document.getElementsByClassName("myButtons");
-    for (var i = 0; i < x.length; i++) {
-      x[i].style.borderRadius = "0%";
-      x[i].style.background = "lightGray";
-      x[i].style.color = "black";  
-    }
-}
-
 function clearItems() {
     window.localStorage.clear();
     location.reload();

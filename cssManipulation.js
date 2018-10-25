@@ -19,7 +19,7 @@ function adjustPercentage(percentage) {
 }
 
 function adjustPixels(pixels) {
-    document.getElementById("textSliderOutput").innerHTML = pixels + 'px';
+    document.getElementById("textSliderOutput").innerHTML = pixels + ' px';
 }
 
 function changeButtons() {

@@ -24,10 +24,19 @@ function adjustPixels(pixels) {
 
 function changeButtons() {
     var x = document.getElementsByClassName("myButtons");
-    for (var i = 0; i < x.length; i++) {
-      x[i].style.borderRadius = "7%";
-      x[i].style.background = "black";
-      x[i].style.color = "white";  
+    if (x[0].style.borderRadius == "0%") {
+      for (var i = 0; i < x.length; i++) {
+        x[i].style.borderRadius = "7%";
+        x[i].style.background = "black";
+        x[i].style.color = "white";  
+      }
+    }
+    else {
+      for (var i = 0; i < x.length; i++) {
+        x[i].style.borderRadius = "0%";
+        x[i].style.background = "lightGray";
+        x[i].style.color = "black";  
+      }
     }
 }
 

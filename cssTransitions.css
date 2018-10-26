@@ -4,7 +4,8 @@ body {
 	padding: .5rem;
 	max-width: 1000px;
 	font-family: Ubuntu, sans-serif;
-	background-color: lightgrey;
+	background: #eee;
+	transition: background 1s linear 3s;
 }
 
 a {

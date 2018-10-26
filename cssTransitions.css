@@ -9,6 +9,7 @@ body {
 
 a {
 	transition: color 1s ease 0s;
+	text-decoration: none;
 }
 
 a:link {

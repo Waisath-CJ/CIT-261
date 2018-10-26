@@ -12,9 +12,9 @@ a {
 }
 
 a:link {
-	color: #000000;
+	color: #000;
 }
 
 a:hover {
-	color: #cc2200;
+	color: #ff0;
 }

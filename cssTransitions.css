@@ -8,13 +8,13 @@ body {
 }
 
 a {
-	transition: 2s;
+	transition: 1s;
 }
 
 a:link {
-	color: #000;
+	color: #000000;
 }
 
 a:hover {
-	color: #c20;
+	color: #cc2200;
 }

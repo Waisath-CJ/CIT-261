@@ -7,11 +7,7 @@ body {
 	background-color: lightgray;
 }
 
-a:visited {
-	color: #000;
-}
-
-a {
+a, a:visited {
 	transition: color 1s ease 0s;
 	text-decoration: none;
 }

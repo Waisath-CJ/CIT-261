@@ -7,12 +7,16 @@ body {
 	background-color: lightgray;
 }
 
+a:visited {
+	color: #000;
+}
+
 a {
 	transition: color 1s ease 0s;
 	text-decoration: none;
 }
 
-a:link, a:visited {
+a:link {
 	color: #000;
 }
 

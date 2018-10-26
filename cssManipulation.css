@@ -1,12 +1,4 @@
 /* File: styles.css */
-body {
-	margin: auto;
-	padding: .5rem;
-	max-width: 1000px;
-	font-family: Ubuntu, sans-serif;
-	background-color: lightgrey;
-}
-
 .myButtons {
     padding: 8px 14px;
     text-align: center;

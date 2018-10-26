@@ -4,12 +4,11 @@ body {
 	padding: .5rem;
 	max-width: 1000px;
 	font-family: Ubuntu, sans-serif;
-	background: #eee;
-	transition: background 1s linear 3s;
+	background: #fff;
 }
 
 a {
-	transition: 1s;
+	transition: color 1s ease 0s;
 }
 
 a:link {

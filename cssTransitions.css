@@ -4,7 +4,7 @@ a:visited {
 }
 
 a {
-	transition: color 1s ease 0s;
+	transition: color 1s linear 0s;
 	text-decoration: underline;
 }
 
@@ -17,81 +17,81 @@ a:hover {
 }
 
 #hoverTransition {
-	width: 1000px;
+	width: 500px;
 	height: 50px;
 	background-color: #fff;
 	margin: 0px;
 }
 
 #square1 {
-	width: 100px;
+	width: 50px;
 	height: 50px;
 	background-color: red;
-	transition: 3s ease 0s;	
+	transition: 2s ease 0s;	
 }
 
 #square1:hover {
-	width: 1000px;
+	width: 500px;
 	background-color: green;
 }
 
 #square2 {
-	width: 100px;
+	width: 50px;
 	height: 50px;
-	background-color: teal;
-	transition: 3s ease-in 0s;	
+	background-color: purple;
+	transition: 2s ease-in 0s;	
 }
 
 #square2:hover {
-	width: 1000px;
+	width: 500px;
 	background-color: green;
 }
 
 #square3 {
-	width: 100px;
+	width: 50px;
 	height: 50px;
 	background-color: blue;
-	transition: 3s ease-out 0s;	
+	transition: 2s ease-out 0s;	
 }
 
 #square3:hover {
-	width: 1000px;
+	width: 500px;
 	background-color: green;
 }
 
 #square4 {
-	width: 100px;
+	width: 50px;
 	height: 50px;
 	background-color: pink;
-	transition: 3s ease-in-out 0s;	
+	transition: 2s ease-in-out 0s;	
 }
 
 #square4:hover {
-	width: 1000px;
+	width: 500px;
 	background-color: green;
 }
 
 #square5 {
-	width: 100px;
+	width: 50px;
 	height: 50px;
 	background-color: black;
-	transition: 3s linear 0s;	
+	transition: 2s linear 0s;	
 }
 
 #square5:hover {
-	width: 1000px;
+	width: 500px;
 	background-color: green;
 }
 
 #square6 {
-	width: 100px;
+	width: 50px;
 	height: 50px;
 	background-color: gold;
-	transition: 3s steps(10) 0s;	
+	transition: 2s steps(10) 0s;	
 }
 
 #square6:hover {
-	width: 1000px;
+	width: 500px;
 	background-color: green;
 }
 
@@ -107,17 +107,17 @@ input[type="text"] {
 }
 
 input#example1:focus {
-	width: 450px;
+	width: 475px;
 	background-color: #eafbf6;
 }
 
 input#example2:focus {
-	width: 450px;
+	width: 475px;
 	background-color: #eafbf6;
 }
 
 input#example3:focus {
-	width: 450px;
+	width: 475px;
 	background-color: #eafbf6;
 }
 

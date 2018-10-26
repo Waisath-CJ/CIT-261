@@ -6,3 +6,15 @@ body {
 	font-family: Ubuntu, sans-serif;
 	background-color: lightgrey;
 }
+
+a {
+	transition: 2s;
+}
+
+a:link {
+	color: #000;
+}
+
+a:hover {
+	color: #c20;
+}

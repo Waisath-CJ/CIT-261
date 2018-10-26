@@ -19,11 +19,3 @@ a:link {
 a:hover {
 	color: #ff0;
 }
-
-a:visited {
-	color: #000;
-}
-
-a:active {
-	color: #c20;
-}

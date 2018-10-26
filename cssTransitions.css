@@ -7,6 +7,10 @@ body {
 	background-color: #eee;
 }
 
+a:visited {
+	color: #000;
+}
+
 a {
 	transition: color 1s ease 0s;
 	text-decoration: none;

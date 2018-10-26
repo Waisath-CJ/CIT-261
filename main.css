@@ -1,0 +1,17 @@
+/* File: main.css */
+body {
+	margin: auto;
+	padding: .5rem;
+	max-width: 1000px;
+	font-family: Ubuntu, sans-serif;
+	background-color: #eee;
+}
+
+a, a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #b6f;
+}

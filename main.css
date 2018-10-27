@@ -1,10 +1,14 @@
 /* File: main.css */
 body {
+	font-family: Ubuntu, sans-serif;
+	background-color: #777;
+}
+
+main {
 	margin: auto;
 	padding: .5rem;
 	max-width: 1000px;
-	font-family: Ubuntu, sans-serif;
-	background-color: #eee;
+	background-color: #ccc;
 }
 
 a, a:visited {
@@ -13,5 +17,5 @@ a, a:visited {
 }
 
 a:hover {
-	color: #b6f;
+	color: #b64;
 }

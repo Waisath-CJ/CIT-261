@@ -32,10 +32,7 @@ table {
 }
 
 thead, tfoot {
-	background-color: #7fb9c2;;
-}
-
-thead {
+	background-color: #7fb9c2;
 	font-size: 1.25rem;
 }
 

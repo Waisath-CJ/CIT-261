@@ -45,7 +45,7 @@ function array() {
 	var midValue = getMiddle(list);
 	var range = getRange(list);
 
-	document.getElementById("arrayOutput").innerHTML = "Array of values: " + "[" + list + "]";
+	document.getElementById("arrayOutput").innerHTML = "Array of values: " + "[" + sortArray + "]";
 	document.getElementById("sumOutput").innerHTML = "Sum of the first and last values: " + sumValue;
 	document.getElementById("midOutput").innerHTML = "Middle integer: " + midValue;
 	document.getElementById("rangeOutput").innerHTML = "Range of values: " + range;
@@ -69,6 +69,24 @@ function createArray(arrayMax){
 	return list;
 }
 
+function sort(list) {
+	var firstValue = 0;
+	var lastValue = list.length - 1;
+
+	for (var i = lastValue - 1; i >= firstValue; i--) {
+		var swap = list[i];
+		for (var j = i + 1; j <= lastValue; j++) {
+			if (swap <= list[j]) {
+				break;
+			}
+			list[j - 1] = j;
+		}
+		list[j - 1] = swap;
+	}
+
+	return list;
+}
+
 function addEnds(list) {
 	var firstValue = list[0];
 	var lastValue = list[list.length - 1];
@@ -79,5 +97,43 @@ function addEnds(list) {
 }
 
 function getMiddle(list) {
-	
+	var firstValue = 0;
+	var arrayLength = list.length;
+	var arrayMid = arrayLength / 2;
+
+	if (arrayLength % 2 == 0) {
+		var avgFirstValue = list[arrayMid-1];
+		var avgLastValue = list[arrayMid];
+		var avgMidValue = (avgFirstValue + avgLastValue) / 2;
+
+		return avgMidValue;
+	}
+	else {
+		var midValue = list[Math.floor(arrayMid)];
+		return midValue;
+	}
+}
+
+function getRange(list) {
+	var firstValue = list[0];
+	var lastValue = list[list.length - 1];
+	var range = lastValue - firstValue;
+
+	return range;
+}
+
+/////////////////////////////////////////////////////////////////////////////////
+function favorites() {
+	var favCity = document.getElementById("favCity").value;
+	var favColor = document.getElementById("favColor").value;
+	var favNumber = document.getElementById("favNumber").value;
+	var favSport = document.getElementById("favSport").value;
+	var favSuperhero = document.getElementById("favSuperhero").value;
+
+	var associativeArray = {"city": favCity, "color": favColor, "number": favNumber, 
+		"sport": favSport, "superhero": favSuperhero};
+
+	document.getElementById("associativeArray").innerHTML = "<br>Your array: <br>{city: " + associativeArray["city"]
+		+ ", color: " + associativeArray["color"] + ", number: " + associativeArray["number"] + ", sport: " 
+		+ associativeArray["sport"] + ", superhero: " + associativeArray["superhero"] + "}";
 }

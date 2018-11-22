@@ -5,6 +5,7 @@
 		<title>JavaScript - Loops, Conditional Statements, Functions, Variables, Parameters, Array, Associative Arrays</title>
 		<link rel="stylesheet" type="text/css" href="../normalize.css">
 		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link rel="stylesheet" type="text/css" href="jsBasics.css">
 		<script type="text/javascript" src="jsBasics.js"></script>
 	</head>
 
@@ -17,7 +18,7 @@
 
 			<input type="number" id="numInput">
 			<br>
-			<button type="button" onclick="multiples()">Print</button>
+			<button type="button" onclick="multiples()" class="myButtons">Print</button>
 			<p></p>
 			<div id="numOutput"></div>
 
@@ -26,7 +27,27 @@
 			<h3>Parameters / Arrays</h3>
 			<p>This will prompt the user for the size of the array and then continually prompt the user for integers to fill the array. <br> Push the button to try it out!</p>
 
-			<button type="button" onclick="array()">Let's play with arrays!</button>
+			<button type="button" onclick="array()" class="myButtons">Let's play with arrays!</button>
+			<p></p>
+			<div id="arrayOutput"></div>
+			<div id="sumOutput"></div>
+			<div id="midOutput"></div>
+			<div id="rangeOutput"></div>
+
+			<hr>
+
+			<h3>Associative Arrays</h3>
+			<p>Enter your favorite values in the spaces below and then press submit when you're done.</p>
+
+			<input type="text" id="favCity" placeholder="Favorite City" class="example1"> <br>
+			<input type="text" id="favColor" placeholder="Favorite Color" class="example2"> <br>
+			<input type="text" id="favNumber" placeholder="Favorite Number" class="example3"> <br>
+			<input type="text" id="favSport" placeholder="Favorite Sport" class="example4"> <br>
+			<input type="text" id="favSuperhero" placeholder="Favorite Superhero" class="example5"> <br>
+			<button type="button" onclick="favorites()" class="myButtons">Submit</button>
+			<p></p>
+
+			<div id="associativeArray"></div>
 
 			<hr>
 			<button type="button" onclick="reset()" class="myButtons">Reset</button>

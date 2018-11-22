@@ -5,6 +5,7 @@
 		<title>JavaScript - Loops, Conditional Statements, Functions, Variables, Parameters, Array, Associative Arrays</title>
 		<link rel="stylesheet" type="text/css" href="../normalize.css">
 		<link rel="stylesheet" type="text/css" href="../main.css">
+		<script type="text/javascript" src="jsBasics.js"></script>
 	</head>
 
 	<body>
@@ -12,11 +13,18 @@
 			<h2>Loops, Conditional Statements, Functions, Variables, Parameters, Array, Associative Arrays</h2>
 
 			<h3>Loops / Conditional Statements / Functions / Variables</h3>
-			<p>Enter how many times you'd like to run the 7 Times Table and then click Print.</p>
+			<p>Input a number to print the multiples of that number up to 15.</p>
 
-			<input type="number" name="numInput">
+			<input type="number" id="numInput">
 			<br>
-			<button type="button" onclick="sevenTable()">Print</button>
+			<button type="button" onclick="multiples()">Print</button>
+			<p></p>
+			<div id="numOutput"></div>
+
+			<hr>
+
+			<button type="button" onclick="reset()" class="myButtons">Reset</button>
+			<button type="button" class="myButtons" onclick="window.location.href='../index.html'">Home</button>
 		</main>
 	</body>
 </html>

@@ -10,7 +10,7 @@ function familyJSON(value) {
 			var image = '<img src="' + response[value].pic + '">';
 
 			var x = "";
-			for (int i = 0; i < response[value].hobbies.length; i++) {
+			for (var i = 0; i < response[value].hobbies.length; i++) {
 				x += "<li>" + response[value].location[i] + "</li>";
 			}
 

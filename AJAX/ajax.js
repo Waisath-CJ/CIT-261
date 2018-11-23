@@ -14,7 +14,7 @@ function familyJSON(value) {
 				x += "<li>" + response[value].hobbies[i] + "</li>";
 			}
 
-			document.getElementById("jsonHeader").innerHTML = response[value].name;
+			document.getElementById("jsonHeader").innerHTML = "<h3>" + response[value].name + "</h3>";
 			document.getElementById("jsonPic").innerHTML = image;
 			document.getElementById("jsonDetails").innerHTML = "Age: " + response[value].age + "<br>Sibling placement: " + response[value].sib_place +
 				"<br>Hobbies: " + "<ul>" + x + "</ul>";

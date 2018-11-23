@@ -2,7 +2,7 @@
 
 function familyJSON(value) {
 	var xhttp = new XMLHttpRequest();
-	xhttp.open("GET", "family.json", true);
+	
 	xhttp.onreadystatechange = function() {
 		if (this.readystate == 4 && this.status == 200) {
 			var response = JSON.parse(this.responseText);
@@ -23,5 +23,6 @@ function familyJSON(value) {
 			document.getElementById("jsonStringOutput").innerHTML = "<hr><p><b>JSON converted into a string</b></p><pre>" + jsonString + "</pre>";
 		}
 	}
+	xhttp.open("GET", "family.json", true);
 	xhttp.send();
 }

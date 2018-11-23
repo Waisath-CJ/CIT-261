@@ -11,7 +11,7 @@ function familyJSON(value) {
 
 			var x = "";
 			for (var i = 0; i < response[value].hobbies.length; i++) {
-				x += "<li>" + response[value].location[i] + "</li>";
+				x += "<li>" + response[value].hobbies[i] + "</li>";
 			}
 
 			document.getElementById("jsonHeader").innerHTML = response[value].name;

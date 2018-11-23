@@ -19,7 +19,7 @@ function familyJSON(value) {
 			document.getElementById("jsonDetails").innerHTML = "Age: " + response[value].age + "<br>Sibling placement: " + response[value].sib_place +
 				"<br>Hobbies: " + "<ul>" + x + "</ul>";
 
-			var jsonString = JSON.stringify(response, null, 4);
+			var jsonString = JSON.stringify(response[value], null, 4);
 			document.getElementById("jsonStringOutput").innerHTML = "<hr><p><b>JSON converted into a string</b></p><pre>" + jsonString + "</pre>";
 		}
 	}

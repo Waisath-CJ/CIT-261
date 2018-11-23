@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Whitney Waisath Larsen",
+		"age": 23,
+		"pic": "whitney.jpg",
+		"hobbies": ["Baking", "Cooking"],
+		"sib_place": "Oldest"
+	},
+	{
+		"name": "CJ Waisath",
+		"age": 21,
+		"pic": "cj.jpg",
+		"hobbies": ["Soccer", "Music", "Video Games", "Gymnastics", "Volunteering"],
+		"sib_place": "Second Oldest"
+	},
+	{
+		"name": "Brayden Waisath",
+		"age": 15,
+		"pic": "brayden.jpg",
+		"hobbies": ["Bugs", "Cars", "Being with Friends", "Swimming", "Video Games"],
+		"sib_place": "Second Youngest"
+	},
+	{
+		"name": "Kade Waisath",
+		"age": 15,
+		"pic": "kade.jpg",
+		"hobbies": ["Cars", "Swimming", "Animals", "Video Games", "Outdoors"],
+		"sib_place": "Youngest"
+	}
+]

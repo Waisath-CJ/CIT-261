@@ -5,9 +5,25 @@
 		<title>AJAX - Requesting a JSON File</title>
 		<link rel="stylesheet" type="text/css" href="../normalize.css">
 		<link rel="stylesheet" type="text/css" href="../main.css">
+		<script type="text/javascript" src="family.json"></script>
+		<script type="text/javascript" src="ajax.js"></script>
 	</head>
 
 	<body>
-		
+		<main>
+			<h2>AJAX - Requesting a JSON File</h2>
+			<p>To demonstrate my knowledge of AJAX requesting a JSON file, I decided to briefly introduce the kids in my family. (Including myself)<br>I put all of our information into a JSON file.<br>Sliding the bar below will switch between each of my siblings.</p>
+			<div id="slideContainer">
+				<input type="range" value="0" min="0" max="3" class="slider" oninput="requestJSON(this.value)" onchange="requestJSON(this.value)">
+			</div>
+
+			<div id="jsonHeader"></div>
+			<div id="jsonPic"></div>
+			<div id="jsonDetails"></div>
+			<div id="jsonStringOutput"></div>
+
+			<hr>
+			<button type="button" class="myButtons" onclick="window.location.href='../index.html'">Home</button>
+		</main>
 	</body>
 </html>

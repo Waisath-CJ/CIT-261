@@ -1,4 +1,11 @@
 /* File: main.css */
+.myButtons {
+    padding: 8px 14px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+}
+
 body {
 	font-family: Ubuntu, sans-serif;
 	background-color: #aaa;

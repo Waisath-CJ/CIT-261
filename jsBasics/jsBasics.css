@@ -1,11 +1,4 @@
 /* File: jsBasics.css */
-.myButtons {
-    padding: 8px 14px;
-    text-align: center;
-    display: inline-block;
-    font-size: 12px;
-}
-
 input[type="text"] {
 	width: 350px;
 	outline: none;

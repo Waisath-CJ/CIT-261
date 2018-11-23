@@ -2,14 +2,14 @@
 	{
 		"name": "Whitney Waisath Larsen",
 		"age": 23,
-		"pic": "whitney.jpg",
+		"pic": "whitney.JPG",
 		"hobbies": ["Baking", "Cooking"],
 		"sib_place": "Oldest"
 	},
 	{
 		"name": "CJ Waisath",
 		"age": 21,
-		"pic": "cj.jpg",
+		"pic": "cj.jpeg",
 		"hobbies": ["Soccer", "Music", "Video Games", "Gymnastics", "Volunteering"],
 		"sib_place": "Second Oldest"
 	},

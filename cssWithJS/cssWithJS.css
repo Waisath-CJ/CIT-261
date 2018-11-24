@@ -1,0 +1,17 @@
+/* File: cssWithJS.css */
+#container {
+	width: 400px;
+	height: 400px;
+	background: black;
+	position: relative;
+}
+
+#moon {
+	width: 100px;
+	height: 100px;
+	background-color: white;
+	position: absolute;
+	left: 150px;
+	border-radius: 50px;
+	top: 5px;
+}

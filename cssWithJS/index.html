@@ -5,9 +5,24 @@
 		<title>Creating CSS3 Transitions and Animations in CSS and Triggering Them with JavaScript</title>
 		<link rel="stylesheet" type="text/css" href="../normalize.css">
 		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link rel="stylesheet" type="text/css" href="cssWithJS.css">
+		<script type="text/javascript" src="cssWithJS.js"></script>
 	</head>
 
 	<body>
-		
+		<main>
+			<h2>Creating CSS3 Transitions and Animations in CSS and Triggering Them with JavaScript</h2>
+			<p>Click on the buttons below to watch the moon set or rise!</p>
+			
+			<div id="container">
+				<div id="moon"></div>
+			</div>
+
+			<p></p>
+			<button class="myButtons" type="button" onclick="moonset()">Moonset</button>
+			<button class="myButtons" type="button" onclick="moonrise()">Moonrise</button>
+			<button class="myButtons" type="button" onclick="location.reload()">Reset</button>
+			<button class="myButtons" type="button" onclick="window.location.href='../index.html'">Home</button>
+		</main>
 	</body>
 </html>

@@ -1,0 +1,70 @@
+/* File: cssTransforms.css */
+div {
+	width: 200px;
+	height: 100px;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	position: inline;
+	transition: 1s ease;
+}
+
+#translate, #translate3d {
+	background-color: red;
+}
+
+#rotate, #rotate3d {
+	background-color: blue;
+}
+
+#scale, #scale3d {
+	background-color: gold;
+}
+
+#skew, #skew3d {
+	background-color: purple;
+}
+
+#matrix, #matrix3d {
+	background-color: green;
+}
+
+/* 2D Transforms */
+#translate:hover {
+	transform: translate(350px, -50px);
+}
+
+#rotate:hover {
+	transform: rotate(45deg);
+}
+
+#scale:hover {
+	transform: scale(0.5, 0.5);
+}
+
+#skew:hover {
+	transform: skew(-30deg, -15deg);
+}
+
+#matrix:hover {
+	transform: matrix(1.5, -1, 2, 0.5, 100, 25);
+}
+
+/* 3D Transforms */
+#translate3d:hover {
+	box-shadow: 10px 10px 5px grey;
+	transform: translate3d(350px, -50px, 20px);
+}
+
+#rotate3d:hover {
+	transform: rotateY(180deg);
+}
+
+#scale3d:hover {
+	box-shadow: 10px 10px 5px grey;
+	transform: scaleX(1.5);
+}
+
+#matrix3d:hover {
+	box-shadow: 10px 10px 5px grey;
+	transform: matrix3d(1, 2, 3, 0, 0, 2, 1, 0, 0, 2, .1, 0, 0, 1.2, 0, .5);
+}

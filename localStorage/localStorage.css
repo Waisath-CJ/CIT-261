@@ -1,0 +1,36 @@
+/* File: localStorage.css */
+input[type="text"] {
+	width: 350px;
+	outline: none;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 7px;
+	margin: 6px 0px 10px 0px;
+	transition: 500ms linear;
+	background-color: #fcf9c2;
+}
+
+input.example1:focus {
+	width: 475px;
+	background-color: #eafbf6;
+}
+
+input.example2:focus {
+	width: 475px;
+	background-color: #eafbf6;
+}
+
+input.example3:focus {
+	width: 475px;
+	background-color: #eafbf6;
+}
+
+input.example4:focus {
+	width: 475px;
+	background-color: #eafbf6;
+}
+
+input.example5:focus {
+	width: 475px;
+	background-color: #eafbf6;
+}

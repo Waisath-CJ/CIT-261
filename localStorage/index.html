@@ -5,9 +5,36 @@
 		<title>Local Storage - API, Storing and Retrieving Simple Data, Arrays, Associative Arrays, and Objects</title>
 		<link rel="stylesheet" type="text/css" href="../normalize.css">
 		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link rel="stylesheet" type="text/css" href="localStorage.css">
+		<script type="text/javascript" src="localStorage.js"></script>
 	</head>
 
 	<body>
-		
+		<main>
+			<h2>Local Storage - API, Storing and Retrieving Simple Data, Arrays, Associative Arrays, and Objects</h2>
+			<p>Click the button to track how many times you've clicked the button.</p>
+			<p>The results will display both localStorage and sessionStorage. They'll appear the same, but if you click the Home button and then come back to this topic without hitting the reset button, the localStorage count will continue where it left off and the sessionStorage will continue where it left off <i>as long as</i> the browser hasn't been closed. If you close the browser, the sessionStorage will reset, but the localStorage will not. Try it out!</p>
+			<button class="myButtons" type="button" onclick="clickCount()">Click Me!</button>
+			<button class="myButtons" type="button" onclick="reset()">Reset</button>
+			<button class="myButtons" type="button" onclick="window.location.href='../index.html'">Home</button>
+			<p></p>
+			<div id="localResult"></div>
+			<div id="sessionResult"></div>
+
+			<hr>
+
+			<p>It works the same thing when you store information. If you were to store the information, the localStorage and sessionStorage would return the same information. However, if you were to close the browser without clicking Reset and immediately click Show, the localStorage will still be the same yet the sessionStorage would display nothing.</p>
+			<input type="text" id="firstName" placeholder="First Name" class="example1"> <br>
+			<input type="text" id="lastName" placeholder="Last Name" class="example2"> <br>
+			<input type="text" id="birthday" placeholder="Birthday" class="example3"> <br>
+			<input type="text" id="email" placeholder="Email" class="example4"> <br>
+			<input type="text" id="phone" placeholder="Phone" class="example5"> <br>
+			<button class="myButtons" type="button" onclick="createPerson()">Submit</button>
+			<button class="myButtons" type="button" onclick="showPerson()">Show</button>
+			<button class="myButtons" type="button" onclick="reset()">Reset</button>
+			<p></p>
+			<div id="userOutputLocal"></div>
+			<div id="userOutputSession"></div>
+		</main>
 	</body>
 </html>

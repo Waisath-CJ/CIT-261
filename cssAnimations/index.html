@@ -5,9 +5,50 @@
 		<title>Designing, Defining, and Triggering CSS3 Animations without Custom Libraries</title>
 		<link rel="stylesheet" type="text/css" href="../normalize.css">
 		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link rel="stylesheet" type="text/css" href="cssAnimations.css">
 	</head>
 
 	<body>
-		
+		<main>
+			<h2>Designing, Defining, and Triggering CSS3 Animations without Custom Libraries</h2>
+			<p>Check out all of the animations you can do with CSS!</p>
+
+			<hr>
+
+			<p>All animations can be set to start automatically or they can be set with a delay. It's all up to you!</p>
+			<div id="container">
+				<div id="instant"></div>
+			</div>
+			<br>
+			<div id="container">
+				<div id="delayed"></div>
+			</div>
+
+			<p>You can even do just simple animations like the ones below.</p>
+			<div id="ex1"></div>
+			<br>
+			<div id="ex2"></div>
+
+			<hr>
+
+			<p>Just like with transforms and transitions, each animation also has a timing delay and you can even specify how many times you'd like the animation to cycle through. Plus, you can choose how each animated object looks before and after the animation, whether you'd like to keep the new properties or revert back to the old ones.</p>
+
+			<div id="finish"></div>
+			
+			<div id="div1">Ease</div>
+			<br>
+			<div id="div2">Ease-In</div>
+			<br>
+			<div id="div3">Ease-Out</div>
+			<br>
+			<div id="div4">Ease-In-Out</div>
+			<br>
+			<div id="div5">Linear</div>
+
+			<hr>
+
+			<button class="myButtons" type="button" onclick="location.reload()">Reset</button>
+			<button class="myButtons" type="button" onclick="window.location.href='../index.html'">Home</button>
+		</main>
 	</body>
 </html>

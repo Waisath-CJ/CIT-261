@@ -2,12 +2,34 @@
 <html>
 	<head>
 		<meta charset=utf-8>
-		<title>Project</title>
+		<title>Final Project</title>
 		<link rel="stylesheet" type="text/css" href="../normalize.css">
 		<link rel="stylesheet" type="text/css" href="../main.css">
+		<link rel="stylesheet" type="text/css" href="final.css">
+		<script type="text/javascript" src="final.js"></script>
 	</head>
 
 	<body>
-		
+		<main>
+			<header>
+				<h1 id="title">Create your own fantasy</h1>
+				<img id="ball" src="soccerBall.png">
+				<h2>SOCCER TEAM</h2>
+			</header>
+
+			<div id="info">
+				<b>How to begin:</b> <br>
+				<p>Click on each box to input your desired players in each position. Then, you can display your team down below or you can create a new team. The team formation is based on a basic 4-4-2 formation.</p>
+			</div>
+
+			<button type="button" id="createTeam" onclick="createTeam()" class="controls">Create Team</button>
+			<button type="button" id="displayTeam" onclick="displayTeam()" class="controls">Display Team</button>
+			<button type="button" id="clear" onclick="reset()" class="controls">Clear Team Roster</button>
+			<button type="button" id="home" onclick="window.location.href='../index.html'" class="controls">Home</button>
+
+			<div id="create"></div>
+			<div id="display"></div>
+
+		</main>
 	</body>
 </html>

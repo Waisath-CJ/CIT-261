@@ -27,7 +27,7 @@ function clickCount() {
 
 		document.getElementById("sessionResult").innerHTML = "Session Storage Count: " + sessionStorage.clicks + " click(s)";
 	} else {
-		document.getElementById("sessionResult").innerHTML = "Error: Your browser does not support local storage.";
+		document.getElementById("sessionResult").innerHTML = "Error: Your browser does not support session storage.";
 	}
 }
 
